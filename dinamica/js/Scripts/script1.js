@@ -11,4 +11,10 @@ $(document).ready(function(){
 				"<li> <input type='checkbox' value="+ temaAprendido + "> " + temaAprendido + " </li>");	);*/
 	//});
 
+	$("#transfereTema").click(function(){
+		var temaAprendido = $("#assunto").val();
+		$(".AssuntosParaAprender").remove(temaAprendido);
+		$(".AssuntosAprendidos").append(
+				"<li> <input type='checkbox' value="+ temaAprendido + "> " + temaAprendido + " </li>");	);
 	});
+});
