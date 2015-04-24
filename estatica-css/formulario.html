@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+	<title>Formulario de inscricao</title>
+	<link rel="stylesheet" type="text/css" href="estilosCSS/estilo.css" media="all" />
+	<style type="text/css">
+		@import url ("estilo.css") 
+	</style>
+	
+	<p> <h1 class="titulo"> Formulario de inscrição* - Sistemas de Informação 1: </h1> </p> <hr />
+	<p> <h3 class="subtitulo2"> 3 - 16:00-18:00 (CAA 401) <br /> 6 - 14:00-16:00 (CAA 401) </h3> 
+	</p>
+	</head>
+	<body>
+	<div class="informacoes">
+		<b>Disciplina:</b> Sistemas de Informação 1 (Design de Software)<br />
+		<b>Professor:</b> Nazareno de Andrade <br />
+		<b>Código da disciplina:</b> 1411178 <br />
+		<b>Período:</b> 2015.1 <br />
+		<br />
+	</div>
+	
+	<form>
+		<div class="informacoesPessoais">
+		<fieldset>
+			<legend > <h3 class="subdivisao"> Informações pessoais:</h3></legend>
+			<p align="center">
+			<ul type="square">
+				<li> <label for="nome"> Nome (Completo): 
+				<input type="text" id="nome"/>  </li> <br />
+				</label> 
+				
+				<li> <label for="matricula"> Matricula: 
+				<input type="text" id="matricula"/>  </li> <br />
+				</label>
+				
+				<li> <label for="email"> Email:
+				<input type="text" id="email/"> </li> <br />
+				</label>
+				
+			</ul>
+			</p>
+			</div>
+		</fieldset>
+		<br />
+		
+		<div class="informacoesAcademicas">
+		<fieldset>
+			<legend> <h3 class="subdivisao"> Informações acadêmicas:</h3></legend>
+			<p align="center">
+			<ul type="square">
+				<li> Informe quais disciplinas de Programação** você já cursou: </li> <br />
+					<input type="checkbox" name="p1" value="p1" /> Programação 1 <br />
+					<input type="checkbox" name="lp1" value="lp1" /> Laboratório de Programação 1 <br />
+					<input type="checkbox" name="p2" value="p2" /> Programação 2 <br />
+					<input type="checkbox" name="lp2" value="lp2" /> Laboratório de Programação 2 <br />
+					<input type="checkbox" name="eda" value="eda" /> Estrutura de Dados e Algorítmos <br />
+					<input type="checkbox" name="leda" value="leda" /> Laboratório de Estrutura de Dados e Algorítmos <br />
+					<input type="checkbox" name="other" value="other" /> Outra(s)? Qual(is)? <br /> <input type="text" /> <br /> <br />
+			
+					<br />
+			
+				<li>Você possui algum conhecimento preliminar sobre a Disciplina? <br /> <br />
+					<input type="checkbox" name="htmlCss" value="htmlCss" /> Html e CSS <br />
+					<input type="checkbox" name="javascript" value="javascript" /> Javascript <br />
+					<input type="checkbox" name="tdd" value="tdd" /> TDD <br />
+					<input type="checkbox" name="grasp" value="grasp" /> GRASP <br />
+					<input type="checkbox" name="gof" value="gof" /> GoF <br />
+					<input type="checkbox" name="threads" value="threads" /> Threads <br />
+					<input type="checkbox" name="threads" value="threads" /> Outro(s)? Qual(is)? <br /> <input type="text" /> <br /> <br />
+					
+					<br />
+					
+					
+				<li> Cite, de forma sucinta, seus interesses para com a Disciplina: </li> <br />
+					<textarea cols="50" rows="5">
+					</textarea>
+				</p>
+			</fieldset>
+			</div>
+		<br />
+		</ul>
+		<div class="informacoesAdicionais">
+		<h5 align = "center">
+		*Os critérios aqui avaliados NÃO serão eliminatórios. Apenas servirão como base <br />
+		para que a Disciplina ofereça o melhor suporte possível, em nível de conhecimento, aos alunos. <br /> <br />
+		**Além das disciplinas de Programação, é OBRIGATÓRIO que o aluno tenha pago a disciplina <br />
+		de Gerência da Informação, ofertada no 3º período do curso. <br />
+		</h5>
+		</div>
+		<p align="center">
+			<input type="reset" value="Limpar meus dados" /> <br /> <br />
+			<a href="certificação de cadastro.html">
+				<input type="button" value="Cadastrar-se" />
+			</a>
+		</p>
+		</p>	
+			
+	</form> 
+	</body>
+</html>
